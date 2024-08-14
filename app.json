@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "ProjectGym",
+    "slug": "projectgym",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sorataoshino.projectgym"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sorataoshino.projectgym"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bf55f26d-a90e-4044-ac17-ad611cee2d03"
+      }
+    },
+    "owner": "sorataoshino",
+    "updates": {
+      "url": "https://u.expo.dev/bf55f26d-a90e-4044-ac17-ad611cee2d03"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
